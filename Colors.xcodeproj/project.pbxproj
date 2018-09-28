@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		071DF80E215E80330093704F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071DF80D215E80330093704F /* AppDelegate.swift */; };
-		071DF810215E80330093704F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071DF80F215E80330093704F /* ViewController.swift */; };
 		071DF813215E80330093704F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071DF811215E80330093704F /* Main.storyboard */; };
 		071DF815215E80350093704F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 071DF814215E80350093704F /* Assets.xcassets */; };
 		071DF818215E80350093704F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 071DF816215E80350093704F /* LaunchScreen.storyboard */; };
 		071DF823215E80350093704F /* ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071DF822215E80350093704F /* ColorsTests.swift */; };
 		071DF82E215E80350093704F /* ColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071DF82D215E80350093704F /* ColorsUITests.swift */; };
+		071DF83C215E83D90093704F /* ColorListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 071DF83B215E83D90093704F /* ColorListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		071DF80A215E80320093704F /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		071DF80D215E80330093704F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		071DF80F215E80330093704F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		071DF812215E80330093704F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		071DF814215E80350093704F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		071DF817215E80350093704F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		071DF829215E80350093704F /* ColorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		071DF82D215E80350093704F /* ColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUITests.swift; sourceTree = "<group>"; };
 		071DF82F215E80350093704F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		071DF83B215E83D90093704F /* ColorListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				071DF80D215E80330093704F /* AppDelegate.swift */,
-				071DF80F215E80330093704F /* ViewController.swift */,
 				071DF811215E80330093704F /* Main.storyboard */,
 				071DF814215E80350093704F /* Assets.xcassets */,
 				071DF816215E80350093704F /* LaunchScreen.storyboard */,
 				071DF819215E80350093704F /* Info.plist */,
+				071DF83B215E83D90093704F /* ColorListViewController.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				071DF810215E80330093704F /* ViewController.swift in Sources */,
+				071DF83C215E83D90093704F /* ColorListViewController.swift in Sources */,
 				071DF80E215E80330093704F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
